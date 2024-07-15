@@ -1,5 +1,8 @@
 <template>
-  <DxGantt>
+  <DxGantt
+      :task-list-width="500"
+      scale-type="weeks"
+  >
     <DxTasks :data-source="dataSource"/>
 
     <DxColumn
