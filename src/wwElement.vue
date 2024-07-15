@@ -12,8 +12,8 @@
 
 <script>
 import "./dx.fluent.dx-light-theme.css";
+import "./dx-gantt.min.css";
 
-import 'devexpress-gantt/dist/dx-gantt.min.css';
 import {DxColumn, DxGantt, DxTasks} from 'devextreme-vue/gantt';
 
 export default {
