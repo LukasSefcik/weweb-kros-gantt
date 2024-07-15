@@ -10,6 +10,14 @@
         data-field="title"
         caption="Názov"
     />
+    <DxColumn
+        data-field="started_at"
+        caption="Start Date"
+    />
+    <DxColumn
+        data-field="end"
+        caption="End Date"
+    />
   </DxGantt>
 </template>
 
