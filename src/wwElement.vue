@@ -113,27 +113,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.gantt-events {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.gantt-event {
-  position: absolute;
-  background-color: #3498db;
-  color: white;
-  padding: 0 8px;
-  border-radius: 4px;
-}
-
-.gantt-checkpoint {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background-color: red;
-  border-radius: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-}
 </style>
