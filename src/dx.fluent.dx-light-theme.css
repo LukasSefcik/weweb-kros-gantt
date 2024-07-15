@@ -3605,28 +3605,6 @@
     flex-basis: unset;
     flex-grow: 1;
 }
-.dx-tabs:not(.dx-tabs-vertical) .dx-tabs-scrollable .dx-tab {
-    flex-basis: 100%;
-    min-width: -webkit-max-content;
-    min-width: -moz-max-content;
-    min-width: max-content;
-}
-.dx-tabs:not(.dx-tabs-scrolling-enabled) {
-    min-width: -webkit-min-content;
-    min-width: -moz-min-content;
-    min-width: min-content;
-}
-.dx-tab {
-    position: relative;
-    display: inline-flex;
-    align-items: stretch;
-    justify-content: center;
-    flex-basis: 100%;
-    min-width: -webkit-max-content;
-    min-width: -moz-max-content;
-    min-width: max-content;
-    cursor: pointer;
-}
 .dx-tab a {
     position: absolute;
     top: 0;
@@ -4500,9 +4478,6 @@
     line-height: 1.428571;
 }
 .dx-texteditor-input:-webkit-autofill + .dx-placeholder {
-    display: none !important;
-}
-.dx-texteditor-input:autofill + .dx-placeholder {
     display: none !important;
 }
 .dx-texteditor-input:-moz-ui-invalid {
@@ -7584,17 +7559,6 @@
 }
 .dx-datebox {
     max-width: 100%;
-}
-.dx-datebox .dx-texteditor-input::-webkit-datetime-edit {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-.dx-datebox.dx-texteditor-empty input::-webkit-datetime-edit {
-    color: transparent;
-}
-.dx-datebox.dx-texteditor-empty.dx-state-focused input::-webkit-datetime-edit {
-    color: inherit;
 }
 .dx-datebox-wrapper .dx-popup-content {
     padding-top: 20px;
