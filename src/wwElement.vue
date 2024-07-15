@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="dx.light.css">
 <template>
   <DxGantt
       :task-list-width="500"
