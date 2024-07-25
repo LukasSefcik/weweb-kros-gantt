@@ -1,22 +1,16 @@
 <template>
   <DxGantt
       :task-list-width="500"
-      scale-type="weeks"
+      scale-type="months"
   >
-    <DxTasks :data-source="dataSource"/>
+    <DxTasks
+        :data-source="dataSource"
+    />
 
     <DxColumn
         :width="300"
         data-field="title"
         caption="Názov"
-    />
-    <DxColumn
-        data-field="started_at"
-        caption="Start Date"
-    />
-    <DxColumn
-        data-field="end"
-        caption="End Date"
     />
   </DxGantt>
 </template>
